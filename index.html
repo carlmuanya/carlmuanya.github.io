@@ -1,25 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Personal WebSite</title>
-  </head>
-  <body>
-<div class="box">
-  <img src="profile.jpg" alt="" class="box-img">
-  <h1>
-Carl Muanya</h1>
-<h5>
-Cyber Security Analyst </h5>
-<p>
-Carl Muanya is a Cyber Security Analyst currently studying for his CompTIA Security+ </p>
-<ul>
-<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-<li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-</ul>
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Muanya - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 0;
+        }
+        .contact-info {
+            background-color: #ddd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .professional-profile {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carl Muanya</h1>
+        <p>Cyber Security Graduate</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Carl Muanya, a 2024 Cyber Security graduate from Johnson and Wales University. As a cyber security graduate, I bring a comprehensive understanding of diverse network security components, underpinned by my experience as a System Administrator. Skilled in neutralizing cybersecurity threats, I am committed to safeguarding the principles of confidentiality, integrity, and availability.</p>
+        <div class="professional-profile">
+            <h3>Professional Profile</h3>
+            <p>Known for my exceptional teamwork abilities and client relationship skills, I am a motivated and quick learner, always prepared to exceed expectations to ensure objectives are met.</p>
+        </div>
+        <div class="skills">
+            <h3>Computer Skills/Domain Knowledge</h3>
+            <ul>
+                <li>Activities: HackJWU, Association of Computing & Machinery JWU Chapter, Johnson & Wales College of Engineering & Design Leadership team, Johnson & Wales University Resident Assistant, CTFs</li>
+                <li>Tools: SIEM, Linux, Nessus, SysInternals, ServiceNow, Burpsuite, Nmap, AWS, Wireshark, John the Ripper, Firewalls, DLP, PowerShell, Active Directory, Splunk, Tenable Nessus, Ghidra, Office 365, Cisco routers/Switches., Azure, AWS</li>
+                <li>Languages: Python, SQL, Bash</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Carl Muanya</p>
+            <p>42 Howard St. Milford, Ma 01757</p>
+            <p>Phone: 508-315-7976</p>
+            <p>Email: carlmuanya@gmail.com</p>
+        </div>
+    </section>
 </body>
 </html>
